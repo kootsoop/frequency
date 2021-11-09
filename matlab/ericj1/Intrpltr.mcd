@@ -1,0 +1,501 @@
+.MCAD 304020000 1 87 84 0
+.CMD PLOTFORMAT
+0 0 1 1 1 0 0 1 1 
+0 0 1 1 1 0 0 1 1 
+0 1 0 0 1 1 NO-TRACE-STRING                                                0 0 0 0 0
+0 2 1 0 1 1 NO-TRACE-STRING
+0 3 2 0 1 1 NO-TRACE-STRING
+0 4 3 0 1 1 NO-TRACE-STRING
+0 1 4 0 1 1 NO-TRACE-STRING
+0 2 5 0 1 1 NO-TRACE-STRING
+0 3 6 0 1 1 NO-TRACE-STRING
+0 4 0 0 1 1 NO-TRACE-STRING
+0 1 1 0 1 1 NO-TRACE-STRING
+0 2 2 0 1 1 NO-TRACE-STRING
+0 3 3 0 1 1 NO-TRACE-STRING
+0 4 4 0 1 1 NO-TRACE-STRING
+0 1 5 0 1 1 NO-TRACE-STRING
+0 2 6 0 1 1 NO-TRACE-STRING
+0 3 0 0 1 1 NO-TRACE-STRING
+0 4 1 0 1 1 NO-TRACE-STRING
+0 1 1 21 15 0 0 3 
+.CMD FORMAT  rd=d ct=10 im=i et=3 zt=15 pr=3 mass length time charge temperature tr=0 vm=0
+.CMD SET ORIGIN 0
+.CMD SET TOL 0.001000000000000
+.CMD SET PRNCOLWIDTH 8
+.CMD SET PRNPRECISION 4
+.CMD PRINT_SETUP 1.200000 0.250000 0.250000 0.263333 0
+.CMD HEADER_FOOTER 1 1 *empty* *empty* *empty* 0 1 *empty* *empty* *empty*
+.CMD HEADER_FOOTER_FONT fontID=14 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD HEADER_FOOTER_FONT fontID=15 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFAULT_TEXT_PARPROPS 0 0 0
+.CMD DEFINE_FONTSTYLE_NAME fontID=0 name=Variables
+.CMD DEFINE_FONTSTYLE_NAME fontID=1 name=Constants
+.CMD DEFINE_FONTSTYLE_NAME fontID=2 name=Text
+.CMD DEFINE_FONTSTYLE_NAME fontID=4 name=User^1
+.CMD DEFINE_FONTSTYLE_NAME fontID=5 name=User^2
+.CMD DEFINE_FONTSTYLE_NAME fontID=6 name=User^3
+.CMD DEFINE_FONTSTYLE_NAME fontID=7 name=User^4
+.CMD DEFINE_FONTSTYLE_NAME fontID=8 name=User^5
+.CMD DEFINE_FONTSTYLE_NAME fontID=9 name=User^6
+.CMD DEFINE_FONTSTYLE_NAME fontID=10 name=User^7
+.CMD DEFINE_FONTSTYLE fontID=0 family=Times^New^Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=1 family=Times^New^Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=2 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=4 family=Arial points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=5 family=Courier^New points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=6 family=System points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=7 family=Script points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=8 family=Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=9 family=Modern points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD DEFINE_FONTSTYLE fontID=10 family=Times^New^Roman points=10 bold=0 italic=0 underline=0 colrid=-1
+.CMD UNITS U=1
+.CMD DIMENSIONS_ANALYSIS 0 0
+.CMD COLORTAB_ENTRY 0 0 0
+.CMD COLORTAB_ENTRY 128 0 0
+.CMD COLORTAB_ENTRY 0 128 0
+.CMD COLORTAB_ENTRY 128 128 0
+.CMD COLORTAB_ENTRY 0 0 128
+.CMD COLORTAB_ENTRY 128 0 128
+.CMD COLORTAB_ENTRY 0 128 128
+.CMD COLORTAB_ENTRY 128 128 128
+.CMD COLORTAB_ENTRY 192 192 192
+.CMD COLORTAB_ENTRY 255 0 0
+.CMD COLORTAB_ENTRY 0 255 0
+.CMD COLORTAB_ENTRY 255 255 0
+.CMD COLORTAB_ENTRY 0 0 255
+.CMD COLORTAB_ENTRY 255 0 255
+.CMD COLORTAB_ENTRY 0 255 255
+.CMD COLORTAB_ENTRY 255 255 255
+.EQN 4 3 1 0 0 0
+{0:j}NAME:\(-1)
+.EQN 0 13 2 0 0 0
+{0:i}NAME:0;3
+.TXT 4 -16 3 0 0 0
+C x1,1,0,0
+.TXT 8 8 4 0 0 0
+Cg a66.000000,66.000000,44
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard {\fs32 
+Arbitrary Local Interpolation of DFT Outputs}}
+.TXT 4 0 5 0 0 0
+Cg a66.000000,66.000000,16
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard by Eric Jacobsen}
+.TXT 3 0 6 0 0 0
+Cg a66.000000,66.000000,7
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard 9/17/94}
+.TXT 6 0 7 0 0 0
+Cg a66.000000,66.000000,435
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard In many cases 
+frequency estimation of isolated tones can be aided by interpolation
+\par of interbin energy levels in DFT outputs. Resolution of peak 
+power level frequency can easily be increased by a factor of two by 
+interpolating interbin energy. While many interpolation methods suffer 
+from computational complexity, the method outlined below provides high 
+computational efficiency while providing analytically correct energy 
+estimation. }
+.TXT 15 0 8 0 0 0
+Cg a66.000000,66.000000,342
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard Development of 
+the interpolator is easily accomplished with an example case. Vector
+\par Pk is four samples of the undetected output of the DFT of a 
+monochromatic signal in gaussian noise. The four samples chosen 
+include the output peak and three adjacent samples chosen such that 
+the peak and the largest sidelobe are in the center of the\par vector.}
+.EQN 18 3 9 0 0 0
+{0:Pk}NAME:({4,1}ö2858+{0:j}NAME*2827ö5481+{0:j}NAME*9959ö-72-{0:j}NAME*13195ö2632-{0:j}NAME*2209)
+.TXT 0 22 10 0 0 0
+Cg a44.000000,44.000000,40
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard Four elements 
+around peak in DFT output.}
+.EQN 7 -28 11 0 0 0
+&&(_n_u_l_l_&_n_u_l_l_)&|(({0:Pk}NAME)[({0:i}NAME))@&&(_n_u_l_l_&_n_u_l_l_)&{0:i}NAME
+0 0 1 1 1 0 0 1 1 
+0 0 1 1 1 0 0 1 1 
+0 1 0 0 1 1 NO-TRACE-STRING                                                0 1 1 1 1
+0 2 1 0 1 1 NO-TRACE-STRING
+0 3 2 0 1 1 NO-TRACE-STRING
+0 4 3 0 1 1 NO-TRACE-STRING
+0 1 4 0 1 1 NO-TRACE-STRING
+0 2 5 0 1 1 NO-TRACE-STRING
+0 3 6 0 1 1 NO-TRACE-STRING
+0 4 0 0 1 1 NO-TRACE-STRING
+0 1 1 0 1 1 NO-TRACE-STRING
+0 2 2 0 1 1 NO-TRACE-STRING
+0 3 3 0 1 1 NO-TRACE-STRING
+0 4 4 0 1 1 NO-TRACE-STRING
+0 1 5 0 1 1 NO-TRACE-STRING
+0 2 6 0 1 1 NO-TRACE-STRING
+0 3 0 0 1 1 NO-TRACE-STRING
+0 4 1 0 1 1 NO-TRACE-STRING
+0 1 1 21 15 10 0 3 
+.TXT 10 34 12 0 0 0
+Cg a34.000000,34.000000,32
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard Detected 
+magnitude of vector Pk.}
+.TXT 17 -31 13 0 0 0
+Cg a66.000000,66.000000,240
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard One 
+straightforward and robust method of interpolation uses additional 
+DFTs. Zero\par filling the transform of the vector to an arbitrary 
+length produces an equal length\par interpolated vector in the reverse 
+transform. Using the example vector Pk:}
+.EQN 9 0 14 0 0 0
+{0:S}NAME:{0:icfft}NAME({0:Pk}NAME)
+.TXT 0 25 15 0 0 0
+Cg a41.000000,41.000000,33
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard S is the 
+inverse transform of Pk.}
+.EQN 4 -25 16 0 0 0
+{0:n}NAME:4
+.TXT 0 25 17 0 0 0
+Cg a41.000000,41.000000,49
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard Define n as 
+the length of the original vector Pk.}
+.EQN 4 -25 18 0 0 0
+{0:k}NAME:0;2*{0:n}NAME-1
+.TXT 0 25 19 0 0 0
+Cg a41.000000,41.000000,61
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard Define k as a 
+new index for interpolation by a\par factor of two.}
+.EQN 6 -25 20 0 0 0
+({0:Sf}NAME)[({0:k}NAME):{0:if}NAME({0:k}NAME>({0:n}NAME-1),0+{0:j}NAME*0,({0:S}NAME)[({0:k}NAME))
+.TXT 0 25 21 0 0 0
+Cg a41.000000,41.000000,50
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard Sf is S zero 
+filled to double the original length.}
+.EQN 4 -25 22 0 0 0
+{0:IPk}NAME:\(2)*{0:cfft}NAME({0:Sf}NAME)
+.TXT 0 25 23 0 0 0
+Cg a41.000000,41.000000,156
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard Taking the 
+reverse (forward) transform of Sf\par provides the interpolated 
+vector. The scale factor is\par necessary due to the differing lengths 
+of the\par transforms.}
+.EQN 19 -25 24 0 0 0
+&&(_n_u_l_l_&_n_u_l_l_)&|(({0:Pk}NAME)[({0:i}NAME)),|(({0:IPk}NAME)[({0:k}NAME))@&&(_n_u_l_l_&_n_u_l_l_)&{0:i}NAME*2,{0:k}NAME
+0 0 1 1 1 0 0 1 1 
+0 0 1 1 1 0 0 1 1 
+3 2 0 0 1 1 NO-TRACE-STRING                                                0 1 1 1 1
+1 1 1 0 1 1 NO-TRACE-STRING
+0 3 2 0 1 1 NO-TRACE-STRING
+0 4 3 0 1 1 NO-TRACE-STRING
+0 1 4 0 1 1 NO-TRACE-STRING
+0 2 5 0 1 1 NO-TRACE-STRING
+0 3 6 0 1 1 NO-TRACE-STRING
+0 4 0 0 1 1 NO-TRACE-STRING
+0 1 1 0 1 1 NO-TRACE-STRING
+0 2 2 0 1 1 NO-TRACE-STRING
+0 3 3 0 1 1 NO-TRACE-STRING
+0 4 4 0 1 1 NO-TRACE-STRING
+0 1 5 0 1 1 NO-TRACE-STRING
+0 2 6 0 1 1 NO-TRACE-STRING
+0 3 0 0 1 1 NO-TRACE-STRING
+0 4 1 0 1 1 NO-TRACE-STRING
+0 1 1 21 15 10 0 3 
+.TXT 3 34 25 0 0 0
+Cg a32.000000,32.000000,307
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard In this case 
+the interpolation shows\par that the interbin sample clearly provides
+\par a closer estimate of the peak power\par frequency than that 
+afforded in the\par original vector Pk. The computational\par 
+complexity of this method is prohibitively high for some real-time 
+applications, so\par a more efficient method is useful.}
+.TXT 24 -34 26 0 0 0
+Cg a66.000000,66.000000,783
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard Much of the 
+computation load in the DFT method can be reduced if only the interbin
+\par energy estimate is needed. This eliminates the calculations 
+required for the unneeded output bins. Further reduction can be 
+achieved by realizing that the zero-fill portion of\par the input does 
+not contribute to the output of the second transform, so a DFT used 
+for the second transform only needs to run from 0 to n-1 instead of 0 
+to 2*n-1.\par \par If the input vector is always aligned such that the 
+desired interpolation point is between\par the center two samples, 
+then the desired sample point of the second transform output carries 
+an index of 3. This allows an expression for the interpolated point to 
+be written in terms of the second transform. For the moment scale 
+factors will be ignored for simplicity.}
+.EQN 25 4 27 0 0 0
+{0:IPk.3}NAME÷((0,3,{0:i}NAME,{0:S.i}NAME*({0:e}NAME)^(({0:j}NAME*2*{0:\p}NAME*{0:i}NAME*3)/(8))){64})
+.TXT 0 20 28 0 0 0
+Cg a42.000000,42.000000,48
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard Partial DFT 
+for calculating interpolated sample.}
+.TXT 8 -24 29 0 0 0
+Cg a66.000000,66.000000,31
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard Expanding the 
+summation yields:}
+.EQN 6 0 30 0 0 0
+{0:IPk.3}NAME÷{0:S.0}NAME*({0:e}NAME)^({0:j}NAME*0)+{0:S.1}NAME*({0:e}NAME)^(({0:j}NAME*2*{0:\p}NAME*3)/(8))+{0:S.2}NAME*({0:e}NAME)^(({0:j}NAME*2*{0:\p}NAME*2*3)/(8))+{0:S.3}NAME*({0:e}NAME)^(({0:j}NAME*2*{0:\p}NAME*3*3)/(8))
+.TXT 5 0 31 0 0 0
+Cg a66.000000,66.000000,19
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard which 
+simplifies to}
+.EQN 6 0 32 0 0 0
+{0:IPk.3}NAME÷{0:S.0}NAME*({0:e}NAME)^({0:j}NAME*0)+{0:S.1}NAME*({0:e}NAME)^(({0:j}NAME*3*{0:\p}NAME)/(4))+{0:S.2}NAME*({0:e}NAME)^(({0:j}NAME*3*{0:\p}NAME)/(2))+{0:S.3}NAME*({0:e}NAME)^(({0:j}NAME*{0:\p}NAME)/(4))
+.TXT 5 0 33 0 0 0
+Cg a66.000000,66.000000,51
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard Rewriting in 
+terms of the original input Pk yields:}
+.EQN 5 0 34 0 0 0
+{0:IPk.3}NAME÷({0:e}NAME)^({0:j}NAME*0)*{0:n}NAME${0:Pk.n}NAME*({0:e}NAME)^(-{0:j}NAME*0)+({0:e}NAME)^(({0:j}NAME*3*{0:\p}NAME)/(4))*{0:n}NAME${0:Pk.n}NAME*({0:e}NAME)^((-{0:j}NAME*2*{0:\p}NAME*{0:n}NAME)/(4))+({0:e}NAME)^(({0:j}NAME*3*{0:\p}NAME)/(2))*
+{0:n}NAME${0:Pk.n}NAME*({0:e}NAME)^((-{0:j}NAME*2*{0:\p}NAME*2*{0:n}NAME)/(4)){54}({0:e}NAME)^(({0:j}NAME*{0:\p}NAME)/(4))*{0:n}NAME${0:Pk.n}NAME*({0:e}NAME)^((-{0:j}NAME*2*{0:\p}NAME*3*{0:n}NAME)/(4))
+.TXT 16 0 35 0 0 0
+Cg a66.000000,66.000000,147
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard The 
+exponentials may be combined in an expanded form of the above to 
+provide\par a clear picture of the estimation process. Expanding the 
+above yields:}
+.EQN 25 1 36 0 0 0
+{0:IPk.3}NAME÷{0:Pk.0}NAME*({0:e}NAME)^({0:j}NAME*0)+{0:Pk.0}NAME*({0:e}NAME)^(({0:j}NAME*3*{0:\p}NAME)/(4))+{0:Pk.0}NAME*({0:e}NAME)^((-{0:j}NAME*{0:\p}NAME)/(2))+{0:Pk.0}NAME*({0:e}NAME)^(({0:j}NAME*{0:\p}NAME)/(4)){54}{0:Pk.1}NAME*({0:e}NAME)^(
+{0:j}NAME*0)+{0:Pk.1}NAME*({0:e}NAME)^(({0:j}NAME*{0:\p}NAME)/(4))+{0:Pk.1}NAME*({0:e}NAME)^(({0:j}NAME*{0:\p}NAME)/(2))+{0:Pk.1}NAME*({0:e}NAME)^(({0:j}NAME*3*{0:\p}NAME)/(4)){54}{0:Pk.2}NAME*({0:e}NAME)^({0:j}NAME*0)+{0:Pk.2}NAME*({0:e}NAME)^((-
+{0:j}NAME*{0:\p}NAME)/(4))+{0:Pk.2}NAME*({0:e}NAME)^((-{0:j}NAME*{0:\p}NAME)/(2))+{0:Pk.2}NAME*({0:e}NAME)^((-{0:j}NAME*3*{0:\p}NAME)/(4)){54}{0:Pk.3}NAME*({0:e}NAME)^({0:j}NAME*0)+{0:Pk.3}NAME*({0:e}NAME)^((-{0:j}NAME*3*{0:\p}NAME)/(4))+{0:Pk.3}NAME*(
+{0:e}NAME)^(({0:j}NAME*{0:\p}NAME)/(2))+{0:Pk.3}NAME*({0:e}NAME)^((-{0:j}NAME*{0:\p}NAME)/(4))
+.TXT 22 -1 37 0 0 0
+Cg a66.000000,66.000000,34
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard which can be 
+further simplified as}
+.EQN 8 1 38 0 0 0
+{0:IPk.3}NAME÷{0:Pk.0}NAME*(({0:e}NAME)^({0:j}NAME*0)+({0:e}NAME)^(({0:j}NAME*3*{0:\p}NAME)/(4))+({0:e}NAME)^((-{0:j}NAME*{0:\p}NAME)/(2))+({0:e}NAME)^(({0:j}NAME*{0:\p}NAME)/(4))){54}{0:Pk.1}NAME*(({0:e}NAME)^({0:j}NAME*0)+({0:e}NAME)^(({0:j}NAME*
+{0:\p}NAME)/(4))+({0:e}NAME)^(({0:j}NAME*{0:\p}NAME)/(2))+({0:e}NAME)^(({0:j}NAME*3*{0:\p}NAME)/(4))){54}{0:Pk.2}NAME*(({0:e}NAME)^({0:j}NAME*0)+({0:e}NAME)^((-{0:j}NAME*{0:\p}NAME)/(4))+({0:e}NAME)^((-{0:j}NAME*{0:\p}NAME)/(2))+({0:e}NAME)^((-{0:j}NAME*
+3*{0:\p}NAME)/(4))){54}{0:Pk.3}NAME*(({0:e}NAME)^({0:j}NAME*0)+({0:e}NAME)^((-{0:j}NAME*3*{0:\p}NAME)/(4))+({0:e}NAME)^(({0:j}NAME*{0:\p}NAME)/(2))+({0:e}NAME)^((-{0:j}NAME*{0:\p}NAME)/(4)))
+.TXT 23 -1 39 0 0 0
+Cg a66.000000,66.000000,376
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard It can be seen 
+by the simplified expression for the interpolated sample that the\par 
+process can be reduced to a dot product of Pk with an interpolating 
+vector. The\par interpolating vector is determined by combining the 
+exponential terms from the\par two DFTs used with the zero-fill 
+method.\par \par Performance of the interpolating vector may be easily 
+verified by continuing the\par example case.}
+.TXT 30 27 40 0 0 0
+Cg a39.000000,39.000000,142
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard Define the 
+interpolating vector M in terms of\par the exponentials determined 
+previously. The\par previously ignored scale factor can now be\par included.}
+.EQN 11 -27 41 0 0 0
+{0:M}NAME:(({4,1}ö({0:e}NAME)^({0:j}NAME*0)+({0:e}NAME)^((-{0:j}NAME*3*{0:\p}NAME)/(4))+({0:e}NAME)^(({0:j}NAME*{0:\p}NAME)/(2))+({0:e}NAME)^((-{0:j}NAME*{0:\p}NAME)/(4))ö({0:e}NAME)^({0:j}NAME*0)+({0:e}NAME)^((-{0:j}NAME*{0:\p}NAME)/(4))+({0:e}NAME)^((-
+{0:j}NAME*{0:\p}NAME)/(2))+({0:e}NAME)^((-{0:j}NAME*3*{0:\p}NAME)/(4))ö({0:e}NAME)^({0:j}NAME*0)+({0:e}NAME)^(({0:j}NAME*{0:\p}NAME)/(4))+({0:e}NAME)^(({0:j}NAME*{0:\p}NAME)/(2))+({0:e}NAME)^(({0:j}NAME*3*{0:\p}NAME)/(4))ö({0:e}NAME)^({0:j}NAME*0)+(
+{0:e}NAME)^(({0:j}NAME*3*{0:\p}NAME)/(4))+({0:e}NAME)^((-{0:j}NAME*{0:\p}NAME)/(2))+({0:e}NAME)^(({0:j}NAME*{0:\p}NAME)/(4))))/(4)
+.EQN 12 0 42 0 0 0
+{0:M}NAME={0}?_n_u_l_l_
+.TXT 0 27 43 0 0 0
+Cg a39.000000,39.000000,37
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard Show M as a 
+complex coefficient set. }
+.EQN 18 -27 44 0 0 0
+{0:FIPk}NAME:{0:Pk}NAME*{0:M}NAME
+.TXT 0 26 45 0 0 0
+Cg a40.000000,40.000000,217
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard The fast 
+interpolation is merely the dot\par product of the original vector and 
+the\par new interpolating vector. FIPk is the fast\par interpolated 
+value, which compares well\par with the original IPk{\dn 3} calculated 
+with the\par DFT method.}
+.EQN 4 -26 46 0 0 0
+{0:FIPk}NAME={0}?_n_u_l_l_
+.EQN 4 0 47 0 0 0
+({0:IPk}NAME)[(3)={0}?_n_u_l_l_
+.TXT 7 0 48 0 0 0
+Cg a66.000000,66.000000,322
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard A second 
+example may be used to further demonstrate the utility of the new\par 
+method. Pk2 is also taken from the DFT of a monochromatic signal in 
+gaussian\par noise. In this second case the left sidelobe is the 
+largest, so the peak occupies\par the third position. The desired 
+interpolation point is still between the center samples.}
+.EQN 15 0 49 0 0 0
+{0:Pk2}NAME:({4,1}ö-4652+{0:j}NAME*645ö-707+{0:j}NAME*8536ö7201+{0:j}NAME*1151ö245-{0:j}NAME*1646)
+.TXT 0 31 50 0 0 0
+Cg a43.000000,43.000000,23
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard New example 
+vector Pk2.}
+.EQN 7 -33 51 0 0 0
+&&(_n_u_l_l_&_n_u_l_l_)&|(({0:Pk2}NAME)[({0:i}NAME))@&&(_n_u_l_l_&_n_u_l_l_)&{0:i}NAME
+0 0 1 1 1 0 0 1 1 
+0 0 1 1 1 0 0 1 1 
+0 1 0 0 1 1 NO-TRACE-STRING                                                0 1 1 1 1
+0 2 1 0 1 1 NO-TRACE-STRING
+0 3 2 0 1 1 NO-TRACE-STRING
+0 4 3 0 1 1 NO-TRACE-STRING
+0 1 4 0 1 1 NO-TRACE-STRING
+0 2 5 0 1 1 NO-TRACE-STRING
+0 3 6 0 1 1 NO-TRACE-STRING
+0 4 0 0 1 1 NO-TRACE-STRING
+0 1 1 0 1 1 NO-TRACE-STRING
+0 2 2 0 1 1 NO-TRACE-STRING
+0 3 3 0 1 1 NO-TRACE-STRING
+0 4 4 0 1 1 NO-TRACE-STRING
+0 1 5 0 1 1 NO-TRACE-STRING
+0 2 6 0 1 1 NO-TRACE-STRING
+0 3 0 0 1 1 NO-TRACE-STRING
+0 4 1 0 1 1 NO-TRACE-STRING
+0 1 1 21 15 10 0 3 
+.TXT 12 33 52 0 0 0
+Cg a34.000000,34.000000,33
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard Detected 
+magnitude of vector Pk2.}
+.EQN 14 -31 53 0 0 0
+{0:S}NAME:{0:icfft}NAME({0:Pk2}NAME)
+.TXT 0 25 54 0 0 0
+Cg a41.000000,41.000000,34
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard S is the 
+inverse transform of Pk2.}
+.EQN 4 -25 55 0 0 0
+({0:Sf}NAME)[({0:k}NAME):{0:if}NAME({0:k}NAME>({0:n}NAME-1),0+{0:j}NAME*0,({0:S}NAME)[({0:k}NAME))
+.TXT 0 25 56 0 0 0
+Cg a41.000000,41.000000,50
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard Sf is S zero 
+filled to double the original length.}
+.EQN 4 -25 57 0 0 0
+{0:IPk2}NAME:\(2)*{0:cfft}NAME({0:Sf}NAME)
+.TXT 0 25 58 0 0 0
+Cg a41.000000,41.000000,156
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard Taking the 
+reverse (forward) transform of Sf\par provides the interpolated 
+vector. The scale factor is\par necessary due to the differing lengths 
+of the\par transforms.}
+.EQN 8 -27 59 0 0 0
+&&(_n_u_l_l_&_n_u_l_l_)&|(({0:Pk2}NAME)[({0:i}NAME)),|(({0:IPk2}NAME)[({0:k}NAME))@&&(_n_u_l_l_&_n_u_l_l_)&{0:i}NAME*2,{0:k}NAME
+0 0 1 1 1 0 0 1 1 
+0 0 1 1 1 0 0 1 1 
+3 2 0 0 1 1 NO-TRACE-STRING                                                0 1 1 1 1
+1 1 1 0 1 1 NO-TRACE-STRING
+0 3 2 0 1 1 NO-TRACE-STRING
+0 4 3 0 1 1 NO-TRACE-STRING
+0 1 4 0 1 1 NO-TRACE-STRING
+0 2 5 0 1 1 NO-TRACE-STRING
+0 3 6 0 1 1 NO-TRACE-STRING
+0 4 0 0 1 1 NO-TRACE-STRING
+0 1 1 0 1 1 NO-TRACE-STRING
+0 2 2 0 1 1 NO-TRACE-STRING
+0 3 3 0 1 1 NO-TRACE-STRING
+0 4 4 0 1 1 NO-TRACE-STRING
+0 1 5 0 1 1 NO-TRACE-STRING
+0 2 6 0 1 1 NO-TRACE-STRING
+0 3 0 0 1 1 NO-TRACE-STRING
+0 4 1 0 1 1 NO-TRACE-STRING
+0 1 1 21 15 10 0 3 
+.TXT 4 35 60 0 0 0
+Cg a34.000000,34.000000,92
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard Again, the 
+interpolated value\par provides a better estimate of the\par frequency 
+of the input tone.}
+.EQN 22 -33 61 0 0 0
+{0:FIPk2}NAME:{0:Pk2}NAME*{0:M}NAME
+.TXT 0 28 62 0 0 0
+Cg a39.000000,39.000000,84
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard Again, the 
+fast interpolation yields\par results favorably comparable to the\par 
+DFT method.}
+.EQN 4 -28 63 0 0 0
+{0:FIPk2}NAME={0}?_n_u_l_l_
+.EQN 4 0 64 0 0 0
+({0:IPk2}NAME)[(3)={0}?_n_u_l_l_
+.TXT 12 0 65 0 0 0
+Cg a66.000000,66.000000,316
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard This 
+interpolation method may be generalized for any upsampling ratio and 
+selection\par of any output sample index. The development is the same 
+as that used with the\par example problem, without assumptions of 
+input or output vector length or sample\par index. Using the notation 
+from above, the development proceeds as follows:}
+.EQN 13 1 66 0 0 0
+{0:IPk.k}NAME÷((0,{0:NS}NAME-1,{0:i}NAME,{0:S.i}NAME*({0:e}NAME)^(({0:j}NAME*2*{0:\p}NAME*{0:i}NAME*{0:k}NAME)/({0:NL}NAME))){64})
+.TXT 0 21 67 0 0 0
+Cg a44.000000,44.000000,43
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard General case 
+of partial DFT for kth output.}
+.TXT 7 -21 68 0 0 0
+Cg a65.000000,65.000000,6
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard Where:}
+.EQN 0 9 69 0 0 0
+{0:NS}NAME
+.TXT 0 4 70 0 0 0
+Cg a52.000000,52.000000,61
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard = The length 
+of the original short vector to be interpolated.}
+.EQN 3 -4 71 0 0 0
+{0:NL}NAME
+.TXT 0 4 72 0 0 0
+Cg a52.000000,52.000000,82
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard = The 
+effective length of the interpolated vector. For 1:2\par interpolation 
+NL = 2NS.}
+.EQN 5 -4 73 0 0 0
+{0:k}NAME
+.TXT 0 4 74 0 0 0
+Cg a52.000000,52.000000,105
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard = The index of 
+the desired output sample of the effective\par interpolated vector. In 
+the example case k = 3.}
+.TXT 7 -13 75 0 0 0
+Cg a65.000000,65.000000,32
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard Continuing 
+with the development:}
+.EQN 6 0 76 0 0 0
+{0:S.m}NAME÷((0,{0:NS}NAME-1,{0:n}NAME,{0:Pk.n}NAME*({0:e}NAME)^((-{0:j}NAME*2*{0:\p}NAME*{0:n}NAME*{0:m}NAME)/({0:NS}NAME))){64})
+.TXT 8 0 77 0 0 0
+Cg a65.000000,65.000000,34
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard Substituting 
+and expanding yields:}
+.EQN 7 0 78 0 0 0
+{0:IPk.k}NAME÷({0:e}NAME)^({0:j}NAME*0)*{0:n}NAME${0:Pk.n}NAME*({0:e}NAME)^(-{0:j0}NAME)+({0:e}NAME)^(({0:j}NAME*2*{0:\p}NAME*{0:k}NAME)/({0:NL}NAME))*{0:n}NAME${0:Pk.n}NAME*({0:e}NAME)^((-{0:j}NAME*2*{0:\p}NAME*{0:n}NAME)/({0:NS}NAME))+({0:e}NAME)^((
+{0:j}NAME*2*{0:\p}NAME*{0:k}NAME*2)/({0:NL}NAME))*{0:n}NAME${0:Pk.n}NAME*({0:e}NAME)^((-{0:j}NAME*2*{0:\p}NAME*{0:n}NAME*2)/({0:NS}NAME)){54}({0:e}NAME)^(({0:j}NAME*2*{0:\p}NAME*({0:NS}NAME-1)*{0:k}NAME)/({0:NL}NAME))*{0:n}NAME${0:Pk.n}NAME*({0:e}NAME)^(
+(-{0:j2}NAME*{0:\p}NAME*{0:n}NAME*({0:NS}NAME-1))/({0:NS}NAME))
+.TXT 15 0 79 0 0 0
+Cg a65.000000,65.000000,116
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard Therefore, the 
+interpolating vector coefficients are the combined exponentials in\par 
+the above equation for common Pk{\dn n}.}
+.EQN 9 0 80 0 0 0
+{0:M.n}NAME÷({0:e}NAME)^({0:j0}NAME)+({0:e}NAME)^({0:j}NAME*2*{0:\p}NAME*(({0:k}NAME)/({0:NL}NAME)-({0:n}NAME)/({0:NS}NAME)))+({0:e}NAME)^({0:j}NAME*2*{0:\p}NAME*(({0:k}NAME*2)/({0:NL}NAME)-({0:n}NAME*2)/({0:NS}NAME))){54}({0:e}NAME)^({0:j}NAME*2*
+{0:\p}NAME*(({0:k}NAME*({0:NS}NAME-1))/({0:NL}NAME)-({0:n}NAME*({0:NS}NAME-1))/({0:NS}NAME)))
+.TXT 9 0 81 0 0 0
+Cg a65.000000,65.000000,17
+{\rtf1\ansi \deff0{\fonttbl{\f0\fcharset0\fnil Arial;}}{\stylesheet{\f0
+\fs20 Normal;}}\plain\fs20 \pard\plain\s0\f0\fs20 \pard Or, more briefly:}
+.EQN 7 0 82 0 0 0
+{0:M.n}NAME÷((0,{0:NS}NAME-1,{0:i}NAME,({0:e}NAME)^({0:j}NAME*2*{0:\p}NAME*{0:i}NAME*(({0:k}NAME)/({0:NL}NAME)-({0:n}NAME)/({0:NS}NAME)))){64})
