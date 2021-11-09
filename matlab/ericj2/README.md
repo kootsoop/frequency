@@ -70,11 +70,11 @@ Because it may be useful to someone, somewhere, I'm making the Matlab code avail
 
 The usual disclaimers apply; read at your own risk, not responsible for items left lying about, don't try this at home, etc.
 
-- inttst3.m This is the main test routine and requires the following files.
-- macleod.m This is the routine for Macleod's estimator.
-- quin.m This is the routine for Quinn's first estimator.
-- quin2.m This is the routine for Quinn's second estimator.
-- quadterp.m This is the routine for my modified quadratic estimator.
+- [inttst3.m](https://github.com/kootsoop/frequency/blob/main/matlab/ericj2/inttst3.m) This is the main test routine and requires the following files.
+- [macleod.m](https://github.com/kootsoop/frequency/blob/main/matlab/ericj2/macleod.m) This is the routine for Macleod's estimator.
+- [quin.m](https://github.com/kootsoop/frequency/blob/main/matlab/ericj2/quin.m) This is the routine for Quinn's first estimator.
+- [quin2.m](https://github.com/kootsoop/frequency/blob/main/matlab/ericj2/quin2.m) This is the routine for Quinn's second estimator.
+- [quadterp.m](https://github.com/kootsoop/frequency/blob/main/matlab/ericj2/quadterp.m) This is the routine for my modified quadratic estimator.
 
 ## References
 
