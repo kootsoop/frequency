@@ -29,4 +29,4 @@ Tempe, AZ.
 
 Note: Eric was Minister of Algorithms at Intel. [Really.](http://www.ericjacobsen.org/icard.htm)
 
-Note: Eric is now at Abineau Communications.
+Note: Eric was at Abineau Communications.
