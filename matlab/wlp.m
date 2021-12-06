@@ -59,29 +59,29 @@ signal = double(signal);
 
 if any([T N]==0)
   error('wlp: zero size data not allowed.');
-end;
+end
 
 if T==1
    signal = signal(:);
    [T,N] = size(signal);
-end;
+end
 
-if ~exist('window')
+if ~exist('window','var')
   window = 'kay';
-end;
+end
 
 % Need the analytic signal
 if isreal(signal)
   signal = conj(hilbert(signal));
-end;
+end
 
 T = T-1;
 t = [1:T-1]';
 switch (window)
   case 'ckq'
-    if ~exist('SNR')
+    if ~exist('SNR','var')
       SNR = 1;
-    end;
+    end
     Theta = log(1 + SNR + sqrt(SNR^2 + SNR));
     WN = ( sinh(T*Theta) - sinh(t*Theta) - sinh((T-t)*Theta) ) ...
 	/ ( (T-1)*sinh(T*Theta) - 2*sinh(T*Theta/2)*sinh((T-1)/2*Theta) / ...
@@ -93,7 +93,7 @@ switch (window)
     signal = signal./abs(signal);
   case 'lrp'
     WN = ones(T-1,1);
-end;
+end
 
 WN = WN*ones(1,N);
 
