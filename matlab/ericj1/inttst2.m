@@ -59,7 +59,7 @@ targ=zeros(size(1:K)); % Allocate vector for results.
 
 M=0; % Current test number.
 
-for bin = 9.0: 0.1: 9.9
+for bin = 9.0: 0.01: 9.9
 
 M=M+1; % Current test number.
 

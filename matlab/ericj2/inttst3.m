@@ -74,7 +74,7 @@ targ=zeros(size(1:K));		% Allocate vector for results.
 M=0;				% Current test number.
 
 binstrt = 9.0;          % Starting bin number.
-binstep = 0.1;          % Bin delta step size.
+binstep = 0.01;          % Bin delta step size.
 binend = 9.9;           % Ending bin number.
 
 for bin = binstrt: binstep: binend,
