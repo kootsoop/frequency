@@ -28,12 +28,12 @@ signal = double(signal);
 
 if any([T N]==0)
   error('discperiod: zero size data not allowed.');
-end;
+end
 
 if T==1
    signal = signal(:);
    [T,N] = size(signal);
-end;
+end
 
 SS = abs(fft(signal,T));
 

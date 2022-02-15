@@ -59,7 +59,7 @@ targ=zeros(size(1:K)); % Allocate vector for results.
 
 M=0; % Current test number.
 
-for bin = 9.0: 0.1: 9.9,
+for bin = 9.0: 0.1: 9.9
 
 M=M+1; % Current test number.
 
@@ -76,11 +76,11 @@ fprintf('Peak is at %f.\n',bin);
 
 %NOISE=C;
 
-for I = 1:N, % Run trials.
+for I = 1:N % Run trials.
 
  phz=2*pi*rand(1);
 
- cw=ACW*exp(j*((2*pi*(1:tstlen)*bin/tstlen)+phz)); % Generate signal.
+ cw=ACW*exp(1i*((2*pi*(1:tstlen)*bin/tstlen)+phz)); % Generate signal.
  sigp=sum(abs(cw(1:tstlen).^2)); % Calculate signal power.
 
  cwn=cw;
@@ -90,7 +90,7 @@ for I = 1:N, % Run trials.
   % Set signal level and add noise (noise variance=1 on I and on Q)                        
   nzi=NOISE*randn(1,tstlen);
   nzq=NOISE*randn(1,tstlen);
-  nzv=nzi+j*nzq;
+  nzv=nzi+1i*nzq;
 
   nzp=sum(abs(nzv(1:tstlen).^2));
   
@@ -112,7 +112,7 @@ for I = 1:N, % Run trials.
 
  pk3vect(1:3)=dftshrt(rawind-1:rawind+1); % Isolated 3 samples around peak.
  
- quinest(I)=rawind-1+quin(pk3vect); % Do Quinn's estimation.
+ quinest(I)=rawind-1+quinn(pk3vect); % Do Quinn's estimation.
  quinerr(I)=target-quinest(I); % Calculate and save error.
 
  quadest(I)=rawind-1+real(quadterp(pk3vect)); % Do quadratic estimation.
@@ -174,7 +174,7 @@ quadr(M)=mean(quadest); % Calculate average result.
 
 %end; % End outer for loop.
 
-end; % End bin loop.
+end % End bin loop.
 
 %fclose(fid);
 
@@ -190,6 +190,6 @@ figure(3);
 plot((1:M),quadbias(1:M),'yx',(1:M),quinbias(1:M),'g-');
 title('Estimator Bias vs Trial Number');
 
-end;
+%end;
 % </PRE>
 
