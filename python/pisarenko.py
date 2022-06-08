@@ -34,7 +34,7 @@ def pisarenko(sig):
     #
     # Initializations
     #
-    eps = 0.000000001
+    eps = 1
     shape=sig.shape;
     t = shape[0]
     if t < 4:
@@ -45,13 +45,25 @@ def pisarenko(sig):
         sig = np.array([sig]).T
     else:
         ns = shape[1]
-      
-    Rss1 = np.sum(sig[2:t,:]*sig[1:t-1,:], axis=0);
-    Rss2 = np.sum(sig[3:t,:]*sig[1:t-2,:], axis=0);
-
-    alpha = np.divide(( Rss2 + np.sqrt(np.power(Rss2,2) + 8*np.power(Rss1,2)) ) , ( Rss1 + eps )) / 2;
+        
+    xb = np.mean(sig, axis=0)
     
-    return np.real(np.arccos(alpha/2))
+    if (len(xb.shape) == 1):
+        xbm = np.multiply(np.ones([t,1]),xb)
+    else:
+        xbm = np.matmul(np.ones([t,1]),xb)
+
+    sig=np.subtract(sig,xbm)        
+      
+    Rss1 = np.sum(sig[1:t-1,:]*sig[0:t-2,:], axis=0)
+    Rss2 = np.sum(sig[2:t-1,:]*sig[0:t-3,:], axis=0)
+    
+    alpha = ( Rss2 + np.sqrt(np.power(Rss2,2) + 8*np.power(Rss1,2)) ) / ( 4*Rss1 + eps ) ;
+    
+    if np.any(np.abs(alpha) > 1):
+        alpha[np.any(np.abs(alpha) > 1)] = 1
+
+    return np.real(np.arccos(alpha))
 
 # Author: Peter J. Kootsookos (p.kootsookos@ieee.org)
 #
