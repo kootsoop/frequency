@@ -70,15 +70,15 @@ def qnf(sig):
     #
     b=[1];
     nm=t-1;
-    for jjj in [1,2,3,4]:
+    for jjj in [1,2,3,4,5,6,7]:
         for q in np.arange(ns):
-            c=[1,-a[q],1];
+            c=[1,-a[q],1]
             y[:,q] = signal.lfilter(b,c,sig[:,q])
 
         v = np.sum(np.divide(np.multiply(sig[2:t,],y[1:nm,]),np.sum(np.multiply(y[1:nm,],y[1:nm,]))))
         a = np.add(a,2*v);
 
-    return np.real(np.arccos(a/2));
+    return np.real(np.arccos(a/2))
 
     # Author: SJS 1992; Adapted from code within ttinpie.m (author PJK)
     #
