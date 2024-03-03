@@ -7,7 +7,7 @@ Currently no explanations for the algorithms are available in HTML form. The onl
 
 Professor Barry Quinn has recently completed a book on this topic:
 
-Quinn, B.G, Hannan, E.J. (2000) “[The Estimation and Tracking of Frequency](http://www.google.com/url?q=http%3A%2F%2Fwww.cambridge.org%2Fuk%2Fcatalogue%2Fcatalogue.asp%3Fisbn%3D0521804469&sa=D&sntz=1&usg=AFQjCNFIMBThtqEYttxzyJD3-31pxIoZ6Q)”
+Quinn, B.G, Hannan, E.J. (2000) “[The Estimation and Tracking of Frequency](https://mitpressbookstore.mit.edu/book/9780521804462?v=154544)”
 
 Barry has made matlab code for the algorithms he describes in the book available here.
 
