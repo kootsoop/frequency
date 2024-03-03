@@ -1,6 +1,6 @@
 # Frequency Estimation 
 
-![Markdown Check](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+![Markdown Check](https://github.com/kootsoop/frequency/actions/workflows/main.yml/badge.svg)
 
 Some frequency estimation stuff in Matlab, mostly from the CRC for Robust and Adaptive Systems
 
